@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="ja-jp">
+<head>
+    <title>投稿一覧</title>
+</head>
+<body>
+    {% for post in posts %}
+        {{ post.body }}
+        <br /><br />
+    {% endfor %}
+</body>
+</html>
